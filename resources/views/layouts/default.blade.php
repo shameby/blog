@@ -26,6 +26,8 @@
 
     <link rel="stylesheet"
           href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    @yield('include')
 </head>
 <body>
     @include('layouts._header')
@@ -36,6 +38,7 @@
 <!-- bootstrap -->
 <script src="/themes/js/bootstrap.min.js"></script>
 <!-- end bootstrap -->
+<script src="/themes/www/js/home/index.js"></script>
 
 
 <!-- Modules -->

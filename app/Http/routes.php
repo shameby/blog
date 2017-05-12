@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('index/index');
 });
+
+//用户注册登录
+Route::get('/signup', function () {
+    return view('user/signup');
+})->name('signup');
+
+Route::get('/login', function () {
+    return view('user/login');
+})->name('loginPage');
+
+Route::post('/users', 'UsersController@store')->name('users.store');
+Route::get('/users/{id}', 'UsersController@show')->name('users.show');
+
+Route::post('/login', 'SessionsController@store')->name('login');
+Route::delete('/logout', 'SessionsController@destroy')->name('logout');
