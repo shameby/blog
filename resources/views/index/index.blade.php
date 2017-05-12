@@ -4,7 +4,7 @@
 <div class="b-inner-page-header f-inner-page-header b-bg-header-inner-page">
     <div class="b-inner-page-header__content">
         <div class="container">
-            <h1 class="f-primary-l c-default">Blog Wrh's life record</h1>
+            <h1 class="f-primary-l c-default">Recording</h1>
         </div>
     </div>
 </div>
